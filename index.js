@@ -10,6 +10,6 @@ if(a.toLowerCase() == "lingaraj"){
 document.getElementById("usresult").innerHTML="<a href='/lingaraj.html'><table border='1px solid black'><tr><th>NAME</th><th>LOCATION</th><th>STATE</th><tr><td>LINGARAJ TEMPLE</td><td>bhubneswar</td><td>ODISHA</td></tr></table></a>";
 }
 if(a.toLowerCase() == "tata"){
-document.getElementById("usresult").innerHTML="<table><tr><td><embed src='im/ratan-naval-tata.jpg' width='200' height='200'></embed></td><td>RATAN NAVAL TATA<br><i>oral story</i></td></tr></table>";
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/ratan-naval-tata.jpg' width='200' height='200'></embed></td><td>RATAN NAVAL TATA<br><i>oral story</i></td></tr></table>";
 }
 }
