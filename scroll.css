@@ -1,0 +1,8 @@
+div.scrll-img {
+overflow:auto;
+white-space:nowrap;
+padding:10px;
+}
+div.scrll-img embed{
+padding:10px;
+}
