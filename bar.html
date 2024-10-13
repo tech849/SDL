@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color: yellow;
+  overflow: auto;
+  white-space: nowrap;
+  padding:10px;
+}
+
+div.scroll-container op1{
+padding:10px;
+}
+div.scroll-container1 {
+  background-color: transparent;
+  overflow: auto;
+  white-space: nowrap;
+padding:10px;
+}
+
+div.scroll-container1 td1{
+padding:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="scroll-container">
+  <op1 onclick="home();">HOME</op1>
+ <op1 onclick="videos();">VIDEO</op1>
+<op1 onclick="state();">STATE</op1>
+<op1 onclick="about();">ABOUT</op1>
+<op1 onclick="more();">MORE</op1>
+</div>
+<p id="usresult"></p>
+<script>
+function videos(){
+document.getElementById("usresult").innerHTML="<div style='left: 0; width: 100%; height: 0;position:relative;padding-bottom: 56.25%;'><iframe src='https://www.youtube.com/embed/FjbzOjA5ZNw?rel=0' style='top: 0; left: 0; width:100%;height: 100%; position: absolute;border:0;'allowfullscreen scrolling='no'allow='accelerometer;clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share;'></iframe></div><br><div style='left: 0; width: 100%; height: 0;position:relative;padding-bottom: 56.25%;'><iframe src='https://www.youtube.com/embed/ptJoXh0EY3Q?rel=0' style='top: 0; left: 0; width:100%;height: 100%; position: absolute; border:0;'allowfullscreen scrolling='no'allow='accelerometer;clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share;'></iframe></div><br><div style='left: 0; width: 100%; height: 0;position:relative;padding-bottom: 56.25%;'><iframe src='https://www.youtube.com/embed/TK8TkDG056I?rel=0' style='top: 0; left: 0; width: 100%;height: 100%; position: absolute; border: 0;'allowfullscreen scrolling='no'allow='accelerometer;clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share;'></iframe></div>";
+}
+function home(){
+document.getElementById("usresult").innerHTML="<div class='scroll-container1'><td1 style='border-collapse:collapse;border:1px;'><tr><table><td href='/HTFI/odisha/konark/konark.html'><embed src='https://www.savaari.com/blog/wp-content/uploads/2022/11/Konark-Sun-Temple-Ancient.webp' width='200' height='200'></embed><br>KONARK</td><td href='/HTFI/odisha/konark/konark.html'><embed src='https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1539754368/Puri_Blog9876_1539754364.jpg' width='200' height='200'></embed><br>JAGANNATH</td><td href='/jagannath.html'><embed src='' width='200' height='200'></embed><br>LINGARAJ</td><embed src='' width='' height=''></embed></td></tr></table></td1></div>";
+}
+document.getElementById("usresult").innerHTML="<div class='scroll-container1'><td1 style='border-collapse:collapse;border:1px;'><tr><table><td href='/HTFI/odisha/konark/konark.html'><embed src='https://www.savaari.com/blog/wp-content/uploads/2022/11/Konark-Sun-Temple-Ancient.webp' width='200' height='200'></embed><br>KONARK</td><td href='/HTFI/odisha/konark/konark.html'><embed src='https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1539754368/Puri_Blog9876_1539754364.jpg' width='200' height='200'></embed><br>JAGANNATH</td><td href='HTFI/odisha/konark/konark.html'><embed src='' width='200' height='200'></embed><br>LINGARAJ</td><embed src='' width='' height=''></embed></td></tr></table></td1></div>";
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+document.getElementById("usresult").innerHTML="<html><head><link rel='stylesheet'href='/history.csd'></head><body><div class='history-list'><embed src=''></embed></div></body></html>";
