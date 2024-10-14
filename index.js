@@ -13,6 +13,6 @@ if(a.toLowerCase() == "tata"){
 document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/ratan-naval-tata.jpg' width='200' height='200'></embed></td><td>RATAN NAVAL TATA<br><i>oral story</i></td></tr></table>";
 }
   if(a.toLowerCase() == "industries"){
-document.getElementById("usresult").innerHTML="<p id='usresult1'></p>";
+document.getElementById("usresult").innerHTML="<p id='usresult11'></p>";
   }
 }
