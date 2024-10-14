@@ -1,4 +1,4 @@
-document.getElementById("usresult").innerHTML="<p id='usresult1'></p>";
+document.getElementById("usresult").innerHTML="<p id='usresult10'></p>";
 function home(){
-document.getElementById("usresult").innerHTML="<p id='usresult1'></p>";
+document.getElementById("usresult").innerHTML="<p id='usresult10'></p>";
 }
