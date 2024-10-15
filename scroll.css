@@ -6,3 +6,6 @@ padding:10px;
 div.scrll-imgs embed{
 padding:10px;
 }
+body{
+  cursor:pointer;
+}
