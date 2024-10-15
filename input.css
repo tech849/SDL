@@ -2,3 +2,6 @@ input{
 border:none;
   outline:none;
 }
+body{
+cursor:pointer;
+}
