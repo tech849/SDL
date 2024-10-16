@@ -15,4 +15,16 @@ document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/r
   if(a.toLowerCase() == "industries"){
 document.getElementById("usresult").innerHTML="<embed src='/SDL/industries.html'width='100%'height='100%'></embed>";
   }
+  if(a.toLowerCase() == "quiz"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/brain.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "quiz games"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/brain.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "java quiz"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/java-quiz.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "java"){
+document.getElementById("usresult").innerHTML="<p>JAVA</p><br><p>JAVA QUIZ</p>";
+  }
 }
