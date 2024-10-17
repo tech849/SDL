@@ -1,5 +1,5 @@
 function sfx(){
-document.getElementById("searchinp").innerHTML="<p id='searchinp1'>Connecting To Server...</p>";
+document.getElementById("searchinp").innerHTML="<p id='searchinp1'>Loading...</p>";
 }
 const effects = setTimeout(srep,9000);
 function srep(){
