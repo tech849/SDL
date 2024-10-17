@@ -1,6 +1,3 @@
-function globals(){
-document.getElementById("searchinp").innerHTML="<p id='searchinp1><embed src='/SDL/search.gif'width='200px'height:'50dp'></embed></p>";
-}
 
 const effects = setTimeout(srep,5000);
 function srep(){
