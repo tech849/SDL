@@ -1,5 +1,5 @@
 function sfx(){
-document.getElementById("searchinp1").innerHTML="<p id='searchinp1'><embed src='/SDL/search.gif'width='200px'height='50dp'></embed></p>";
+document.getElementById("searchinp").innerHTML="<p id='searchinp1'><embed src='/SDL/search.gif'width='200px'height='50dp'></embed></p>";
 }
 const effects = setTimeout(srep,9000);
 function srep(){
