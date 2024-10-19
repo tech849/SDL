@@ -9,7 +9,12 @@ function load_lightning(){
 }
 function the_master_of_lightning(){
   window.open("/SDL/the-master-of-lightning.html");
+  const reset =setTimeout(reload,5100);
 }
 function dc_vs_ac(){
   window.open("/SDL/dc-vs-ac.html");
+}
+//refresh
+function reload(){
+  location.reload();
 }
