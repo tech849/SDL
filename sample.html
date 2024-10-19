@@ -40,6 +40,7 @@
              document.getElementById("l2").innerHTML+=".";
              const loadfetch1 = setTimeout(load1,4000);
              const loadfetch2 = setTimeout(load2,6000);
+              const loadfetch3 = setTimeout(load2off,7000);
          }
          function load1(){
              clearInterval(loadfetch);
@@ -47,6 +48,9 @@
           function load2(){
              window.open("/SDL/the-master-of-lightning.html");
          }
+            function load2off(){
+                clearTimeout(loadfetch2);
+            }
          
         </script>
     </body>
