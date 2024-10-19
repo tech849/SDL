@@ -3,7 +3,7 @@ overflow:auto;
 white-space:nowrap;
 padding:10px;
 }
-div.scrll-imgs embed{
+div.scrll-imgs embed,p{
 padding:10px;
 }
 body{
