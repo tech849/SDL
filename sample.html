@@ -39,10 +39,13 @@
          function load(){
              document.getElementById("l2").innerHTML+=".";
              const loadfetch1 = setTimeout(load1,4000);
-             
+             const loadfetch2 = setTimeout(load2,4000);
          }
          function load1(){
              clearInterval(loadfetch);
+         }
+          function load2(){
+             window.open("/SDL/the-master-of-lightning.html");
          }
          
         </script>
