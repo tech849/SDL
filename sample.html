@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            body{
+                cursor:pointer;
+            }
+            #t1{
+                position:fixed;
+                left:200px;
+                top:0px;
+             
+               color:white;
+            }
+            #l2{
+                background-color:green;
+                color:transparent;
+            }
+            table{
+                border:1px solid black;
+                background-color:black;
+                color:white;
+            }
+           td{
+                border:1px solid transparent;
+            }
+            #bg{
+               background-color:; 
+               
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bg"><table><tr><td><p id="l1"></p></td><td><p id="l2"></p></td><td></tr></table><p id="t1"></p></div>
+        <script>
+        var a="Loading...";
+            var b="100%";
+            document.getElementById("l1").innerHTML=a; document.getElementById("t1").innerHTML=b;
+         const loadfetch = setInterval(load,100);
+         function load(){
+             document.getElementById("l2").innerHTML+=".";
+             const loadfetch1 = setTimeout(load1,4000);
+             const loadfetch2 = setTimeout(load2,5000);
+         }
+         function load1(){
+             clearInterval(loadfetch);
+         }
+         function load2(){
+             window.open("https://www.google.com/");
+         }
+        </script>
+    </body>
+</html>
