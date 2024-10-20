@@ -15,7 +15,7 @@ function dc_vs_ac(){
 }
 //refresh
 function ld(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To (THE MASTER OF LIGHTNING)</p>";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To<br> (THE MASTER OF LIGHTNING)</p>";
 const loading = setTimeout(load, 5000);
 const reset = setTimeout(rst, 6000);
 
