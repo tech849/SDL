@@ -32,7 +32,7 @@ const loading1 = setTimeout(load1, 1000);
 const reset1 = setTimeout(rst, 2000);
                }
   
-         function load(){
+         function load1(){
              window.open("/SDL/dc-vs-ac.html");
                 }
 //refresh common
