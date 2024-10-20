@@ -27,7 +27,7 @@ const reset = setTimeout(rst, 6000);
                 }
 //dv vs ac
 function ld2(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To (DC VS AC)</p>";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To <br>(DC VS AC)</p>";
 const loading1 = setTimeout(load1, 5000);
 const reset1 = setTimeout(rst, 6000);
                }
