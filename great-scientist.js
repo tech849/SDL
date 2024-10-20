@@ -1,5 +1,5 @@
 function documentary(){
-document.getElementById("usresult").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIES</h3><br><div class='scrll-imgs'><div  id='lm'><embed src='/SDL/the-master-of-lightning.jpg' width='200' height='200'onclick='ld();'></embed></div><embed src='/SDL/dc-vs-ac.jpg' width='200' height='200' onclick='dc_vs_ac();'></embed><embed src='/SDL/.jpg' width='200' height='200'></embed></div>";
+document.getElementById("usresult").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIES</h3><br><div class='scrll-imgs' id='lm'><embed src='/SDL/the-master-of-lightning.jpg' width='200' height='200'onclick='ld();'></embed><embed src='/SDL/dc-vs-ac.jpg' width='200' height='200' onclick='dc_vs_ac();'></embed><embed src='/SDL/.jpg' width='200' height='200'></embed></div>";
 }
   //main
 document.getElementById("scientist").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIES</h3><br><div  id='lm' class='scrll-imgs'><embed src='/SDL/the-master-of-lightning.jpg' width='200' height='200'onclick='ld();'></embed><embed src='/SDL/dc-vs-ac.jpg' width='200' height='200' onclick='dc_vs_ac();'></embed><embed src='/SDL/.jpg' width='200' height='200'></embed></div>";
@@ -15,7 +15,7 @@ function dc_vs_ac(){
 }
 //refresh
 function ld(){
-document.getElementById("usresult").innerHTML="redirecting";
+document.getElementById("lm").innerHTML="redirecting";
 const loading = setTimeout(load, 1000);
 const reset = setTimeout(rst, 2000);
 
