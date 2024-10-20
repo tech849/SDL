@@ -15,7 +15,7 @@ function dc_vs_ac(){
 }
 //refresh
 function ld(){
-document.getElementById("lm").innerHTML="redirecting";
+document.getElementById("usresult").innerHTML="redirecting";
 const loading = setTimeout(load, 1000);
 const reset = setTimeout(rst, 2000);
 
@@ -23,7 +23,7 @@ const reset = setTimeout(rst, 2000);
                }
   
          function load(){
-             window.open("/SDL/the-master-of0lightning.html");
+             window.open("/SDL/the-master-of-lightning.html");
                 }
 function rst(){
 location.reload();
