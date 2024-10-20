@@ -2,7 +2,7 @@ document.getElementById("usresult11").innerHTML="<h3>TEMPLES</h3><br><div id='lo
 //redirect main
 
 function ldkonark(){
-document.getElementById("loadmain").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting...To<br>(KONARK TEMPLE)</p>";
+document.getElementById("ldmain").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting...To<br>(KONARK TEMPLE)</p>";
 const loadingkonark = setTimeout(loadmain, 5000);
 const resetkonark = setTimeout(rst1, 6000);
                }
