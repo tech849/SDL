@@ -3,12 +3,12 @@ document.getElementById("usresult11").innerHTML="<h3>TEMPLES</h3><br><div id='lo
 
 function ldkonark(){
 document.getElementById("loadmain").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting...To<br>(KONARK TEMPLE)</p>";
-//const loading2 = setTimeout(loadmain, 5000);
+const loading2 = setTimeout(loadmain, 5000);
 const reset2 = setTimeout(rst1, 6000);
                }
   
          function ldmain(){
-              // window.open("/SDL/konark.html");
+              window.open("/SDL/konark.html");
                 }
 //refresh common
 function rst1(){
