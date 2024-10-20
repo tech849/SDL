@@ -2,10 +2,6 @@ document.getElementById("usresult11").innerHTML="<h3>TEMPLES</h3><br><div id='lo
 //redirect main
 
 function ldkonark(){
-             window.open("/SDL/the-master-of-lightning.html");
-                }
-//dv vs ac
-function ld3(){
 document.getElementById("loadmain").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting...To<br>(KONARK TEMPLE)</p>";
 //const loading2 = setTimeout(load1, 5000);
 const reset2 = setTimeout(rst, 6000);
