@@ -15,7 +15,7 @@ function dc_vs_ac(){
 }
 //refresh
 function ld(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:40px;'>Redirecting ...To (THE MASTER OF LIGHTNING)</p>";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To (THE MASTER OF LIGHTNING)</p>";
 const loading = setTimeout(load, 5000);
 const reset = setTimeout(rst, 6000);
 
@@ -27,7 +27,7 @@ const reset = setTimeout(rst, 6000);
                 }
 //dv vs ac
 function ld2(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:40px;'>Redirecting ...To (DC VS AC)</p>";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To (DC VS AC)</p>";
 const loading1 = setTimeout(load1, 5000);
 const reset1 = setTimeout(rst, 6000);
                }
@@ -41,7 +41,7 @@ function load(){
                 }
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:40px;'>UPLOADING SOON..</p>";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>UPLOADING SOON..</p>";
 //const loading2 = setTimeout(load1, 5000);
 const reset2 = setTimeout(rst, 6000);
                }
