@@ -15,7 +15,7 @@ function dc_vs_ac(){
 }
 //refresh
 function ld(){
-document.getElementById("lm").innerHTML="redirecting";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:40px;'>Redirecting ...To (THE MASTER OF LIGHTNING)</p>";
 const loading = setTimeout(load, 1000);
 const reset = setTimeout(rst, 2000);
 
@@ -27,7 +27,7 @@ const reset = setTimeout(rst, 2000);
                 }
 //dv vs ac
 function ld2(){
-document.getElementById("lm").innerHTML="redirecting";
+document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:40px;'>Redirecting ...To (DC VS AC)</p>";
 const loading1 = setTimeout(load1, 1000);
 const reset1 = setTimeout(rst, 2000);
                }
