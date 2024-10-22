@@ -27,14 +27,25 @@ const reset = setTimeout(rst, 6000);
                 }
 //dv vs ac
 function ld2(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To <br>(DC VS AC)</p>";
-const loading1 = setTimeout(load1, 5000);
-const reset1 = setTimeout(rst, 6000);
+document.getElementById("lm").innerHTML="<table><tr><td><p id='l1'></p></td><td><p id='l2'></p></td><td></tr></table><p id='t1'></p>";
+  document.getElementById("l1").innerHTML="loading..";
+                document.getElementById("t1").innerHTML="100%"; 
+                const loadfetch = setInterval(load,100);
+                const loadfetch1 = setTimeout(load2,4000);
+             const loadfetch2 = setTimeout(load1,4100);
                }
-  
+            
+         function load(){
+             document.getElementById("l2").innerHTML+=".";
+             
+         }
          function load1(){
+             location.reload();
+         }
+         function load2(){
              window.open("/SDL/dc-vs-ac.html");
-                }
+         }
+
 // the forgotten genius
 function load(){
              window.open("/SDL/the-master-of-lightning.html");
