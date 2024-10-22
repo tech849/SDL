@@ -31,7 +31,7 @@ const reset2 = setTimeout(rst, 6000);
 function ld3(){
 document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:white;'></p></td><td><p id='l2'style='color:blue;background-color:white;'></p></p></td><td></tr></table>";
   document.getElementById("l1").innerHTML="loading..";
-                const percentage =  setTimeout(fetched,5000);
+               // const percentage =  setTimeout(fetched,5000);
   const p1 = setInterval(process,100);
 //const loading2 = setTimeout(load1, 5000);
 const reset3 = setTimeout(rst, 6000);
