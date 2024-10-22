@@ -43,7 +43,7 @@ const reset4 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'>WATCH</button><button onckiclick='download();'>DOWNLOAD</button><button onclick='read();'>READ</button><br><p id='nikola1'></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'>WATCH</button><button onclick='download();'>DOWNLOAD</button><button onclick='read();'>READ</button><br><p id='nikola1'></p></td></tr></table>";
   
                }
 function watch(){
@@ -61,29 +61,29 @@ const reset3 = setTimeout(rst, 6000);
 }
 function download(){
    document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
- const f1 = setTimeout(fetching,1000);
-  const r1 = setTimeout(redirecting,2000);
-  const av1 = setTimeout(avail,4000);
+ const f_1 = setTimeout(fetching,1000);
+  const r_1 = setTimeout(redirecting,2000);
+  const av_1 = setTimeout(avail,4000);
 //const loading2 = setTimeout(load1, 5000);
-const reset3 = setTimeout(rst, 6000);
+const reset_3 = setTimeout(rst, 6000);
   //load per fetch
-  const perc1 = setTimeout(per1,1100);
-  const perc2 = setTimeout(per2,2100);
-  const perc3= setTimeout(per3,3100);
-  const perc4 = setTimeout(per4,4100);
+  const perc_1 = setTimeout(per1,1100);
+  const perc_2 = setTimeout(per2,2100);
+  const perc_3= setTimeout(per3,3100);
+  const perc_4 = setTimeout(per4,4100);
 }
 function read(){
    document.getElementById("nikola1").innerHTML="<td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td>";      
- const f1 = setTimeout(fetching,1000);
-  const r1 = setTimeout(redirecting,2000);
-  const av1 = setTimeout(avail,4000);
+ const f1_2 = setTimeout(fetching,1000);
+  const r1_2 = setTimeout(redirecting,2000);
+  const av1_2 = setTimeout(avail,4000);
 //const loading2 = setTimeout(load1, 5000);
-const reset3 = setTimeout(rst, 6000);
+const reset3_4 = setTimeout(rst, 6000);
   //load per fetch
-  const perc1 = setTimeout(per1,1100);
-  const perc2 = setTimeout(per2,2100);
-  const perc3= setTimeout(per3,3100);
-  const perc4 = setTimeout(per4,4100);
+  const perc1_2 = setTimeout(per1,1100);
+  const perc2_3 = setTimeout(per2,2100);
+  const perc3_4= setTimeout(per3,3100);
+  const perc4_5 = setTimeout(per4,4100);
 }
 //default functions
 function rst(){
