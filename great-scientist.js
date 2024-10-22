@@ -29,7 +29,10 @@ const reset2 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>UPLOADING SOON..</p>";
+document.getElementById("lm").innerHTML="<table><tr><td><p id='l1'></p></td><td><p id='l2'></p></td><td></tr></table><p id='t1'></p>";
+  document.getElementById("l1").innerHTML="loading..";
+                document.getElementById("t1").innerHTML="100%"; 
+  const p1 = setInterval(process,100);
 //const loading2 = setTimeout(load1, 5000);
 const reset3 = setTimeout(rst, 6000);
                }
@@ -41,3 +44,7 @@ const reset3 = setTimeout(rst, 6000);
 function rst(){
 location.reload();
 }
+function process(){
+             document.getElementById("l2").innerHTML+=".";
+             
+         }
