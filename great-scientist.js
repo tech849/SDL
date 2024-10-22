@@ -34,7 +34,7 @@ document.getElementById("lm").innerHTML="<table style=''><tr><td><embed src='/SD
                // const percentage =  setTimeout(fetched,5000);
   const p1 = setInterval(process,1000);
 //const loading2 = setTimeout(load1, 5000);
-const reset3 = setTimeout(rst, 5000);
+const reset3 = setTimeout(rst, 10000);
                }
   
          function load3(){
