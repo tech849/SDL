@@ -6,7 +6,7 @@ document.getElementById("scientist").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIE
 
 //refresh
 function ld(){
-document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-master-of-lightning.jpg'width='200'height='200'></embed></td></tr><tr><tr><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-master-of-lightning.jpg'width='200'height='200'></embed></td><td><h2>THE MASTER OF<br> LIGHTNING</h2></td></tr><tr><tr><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
  const f = setTimeout(fetching,1000);
   const r = setTimeout(redirecting,2000);
   const loading3 = setTimeout(load, 5000);
@@ -23,7 +23,7 @@ const reset = setTimeout(rst, 6000);
                 }
 //dv vs ac
 function ld2(){
-document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/dc-vs-ac.jpg'width='200'height='200'></embed></td><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/dc-vs-ac.jpg'width='200'height='200'></embed></td><td><h2>DC VS AC</h2></td><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
  const f2 = setTimeout(fetching,1000);
   const r2 = setTimeout(redirecting,2000);
   const loading2 = setTimeout(load2, 5000);
@@ -43,7 +43,7 @@ const reset4 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2></td><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
   
                // const percentage =  setTimeout(fetched,5000);
   const f1 = setTimeout(fetching,1000);
