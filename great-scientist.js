@@ -16,9 +16,16 @@ const reset = setTimeout(rst, 6000);
                 }
 //dv vs ac
 function ld2(){
-document.getElementById("lm").innerHTML="<p style='color:yellow;background-color:black;border:2px solid white;font-size:5vw;'>Redirecting ...To<br> (DC VS AC)</p>";
-const loading2 = setTimeout(load2, 5000);
-const reset2 = setTimeout(rst, 6000);
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/dc-vs-ac.jpg'width='200'height='200'></embed></td><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
+ const f2 = setTimeout(fetching,1000);
+  const r2 = setTimeout(redirecting,2000);
+  const loading2 = setTimeout(load2, 5000);
+const reset4 = setTimeout(rst, 6000);
+  //load per%
+   const perc111 = setTimeout(per1,1100);
+  const perc21 = setTimeout(per2,2100);
+  const perc31= setTimeout(per3,3100);
+  const perc41 = setTimeout(per4,4100);
                }
   
          function load2(){
