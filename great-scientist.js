@@ -48,7 +48,7 @@ const reset4 = setTimeout(rst, 6000);
 
 
 function ld3(){
-document.getElementById("usresult").innerHTML="<table style='border-collapse:collapse;background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'>WATCH</button><button onclick='download();'>DOWNLOAD</button><button onclick='read();'>READ</button><br><p id='nikola1'></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'>WATCH</button><button onclick='download();'>DOWNLOAD</button><button onclick='read();'>READ</button><br><p id='nikola1'></p></td></tr></table>";
   
                }
 function watch(){
