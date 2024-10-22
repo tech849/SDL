@@ -39,10 +39,10 @@ document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;
 //const loading2 = setTimeout(load1, 5000);
 const reset3 = setTimeout(rst, 6000);
   //load per fetch
-  const perc1 = setTimeout(per1,2000);
-  const perc2 = setTimeout(per2,3000);
-  const perc3= setTimeout(per3,4000);
-  const perc4 = setTimeout(per4,5000);
+  const perc1 = setTimeout(per1,1900);
+  const perc2 = setTimeout(per2,2900);
+  const perc3= setTimeout(per3,3900);
+  const perc4 = setTimeout(per4,4900);
                }
   
          function load3(){
