@@ -43,6 +43,7 @@ const reset3 = setTimeout(rst, 6000);
   const perc2 = setTimeout(per2,2900);
   const perc3= setTimeout(per3,3900);
   const perc4 = setTimeout(per4,4900);
+  const rst4 = setTimeout(rst,4900);
                }
   
          function load3(){
