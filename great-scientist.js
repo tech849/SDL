@@ -29,7 +29,7 @@ const reset2 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<html> <head>     <style>         body{             cursor:pointer;         }         #t1{             position:fixed;     left:200px;   top:0px;      }#l2{    background-color:green;    color:transparent;}  table{      border:1px solid black;      background-color:black;      color:white;     }    td{         border:1px solid transparent;     }     #bg{        background-color:black;      } </style></head><body><p id="l1main" onclick="f1();">click</p><table><tr><td><p id='l1'></p></td><td><p id='l2'></p></td><td></tr></table><p id='t1'></p></body></html>";
+document.getElementById("lm").innerHTML="<html> <head><ink rel='stylesheet' href='/SDL/loading.css'></head><body><p id='l1main' onclick='f1();'>click</p><table><tr><td><p id='l1'></p></td><td><p id='l2'></p></td><td></tr></table><p id='t1'></p></body></html>";
   document.getElementById("l1").innerHTML="loading..";
                 document.getElementById("t1").innerHTML="100%"; 
   const p1 = setInterval(process,100);
