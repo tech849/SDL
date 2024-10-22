@@ -73,7 +73,7 @@ const reset_3 = setTimeout(rst, 6000);
   const perc_4 = setTimeout(per4,4100);
 }
 function read(){
-   document.getElementById("nikola1").innerHTML="<td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td>";      
+   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f1_2 = setTimeout(fetching,1000);
   const r1_2 = setTimeout(redirecting,2000);
   const av1_2 = setTimeout(avail,4000);
