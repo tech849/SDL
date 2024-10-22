@@ -88,15 +88,15 @@ function avail(){
          }
 // loader percentage
 function per1(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;'>25%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;'>25%</b>";            
          }
 function per2(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;'>50%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;'>50%</b>";            
          }
 function per3(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;'>75%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;'>75%</b>";            
          }
 
 function per4(){
-             document.getElementById("l2").innerHTML="100%";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;'>100%</b>";            
          }
