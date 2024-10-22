@@ -73,7 +73,7 @@ const reset3 = setTimeout(rst, 6000);
   const perc4 = setTimeout(per4,4100);
 }
 function read(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
+   document.getElementById("nikola1").innerHTML="<td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td>";      
  const f1 = setTimeout(fetching,1000);
   const r1 = setTimeout(redirecting,2000);
   const av1 = setTimeout(avail,4000);
@@ -84,20 +84,6 @@ const reset3 = setTimeout(rst, 6000);
   const perc2 = setTimeout(per2,2100);
   const perc3= setTimeout(per3,3100);
   const perc4 = setTimeout(per4,4100);
-}
-  
-         function load3(){
-              // window.open("/SDL/dc-vs-ac.html");
-                }
-//button functions
-function watch(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
-}
-function downlod(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
-}
-function read(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
 }
 //default functions
 function rst(){
