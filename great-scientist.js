@@ -6,7 +6,7 @@ document.getElementById("scientist").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIE
 
 //refresh
 function ld(){
-document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-master-of-lightning.jpg'width='200'height='200'></embed></td><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>"";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-master-of-lightning.jpg'width='200'height='200'></embed></td><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
  const f = setTimeout(fetching,1000);
   const r = setTimeout(redirecting,2000);
   const loading3 = setTimeout(load, 5000);
