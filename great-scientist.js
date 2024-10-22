@@ -12,10 +12,10 @@ document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;
   const loading3 = setTimeout(load, 5000);
 const reset = setTimeout(rst, 6000);
   //load per%
-   const perc111 = setTimeout(per1,1100);
-  const perc21 = setTimeout(per2,2100);
-  const perc31= setTimeout(per3,3100);
-  const perc41 = setTimeout(per4,4100);
+   const perc112 = setTimeout(per1,1100);
+  const perc212 = setTimeout(per2,2100);
+  const perc312= setTimeout(per3,3100);
+  const perc412 = setTimeout(per4,4100);
                }
   
          function load(){
@@ -29,7 +29,7 @@ document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;
   const loading2 = setTimeout(load2, 5000);
 const reset4 = setTimeout(rst, 6000);
   //load per%
-   const perc111 = setTimeout(per1,1100);
+   const perc11 = setTimeout(per1,1100);
   const perc21 = setTimeout(per2,2100);
   const perc31= setTimeout(per3,3100);
   const perc41 = setTimeout(per4,4100);
