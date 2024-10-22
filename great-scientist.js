@@ -29,7 +29,7 @@ const reset2 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:white;'></p></td><td><p id='l2'style='color:blue;background-color:white;'></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:black;'></p></td><td><p id='l2'style='color:blue;background-color:black;'></p></td></tr></table>";
   document.getElementById("l1").innerHTML="loading..";
                // const percentage =  setTimeout(fetched,5000);
   const p1 = setInterval(process,100);
@@ -45,6 +45,6 @@ function rst(){
 location.reload();
 }
 function process(){
-             document.getElementById("l2").innerHTML+=".";
+             document.getElementById("l2").innerHTML+="<b>&#10217;</b>";
              
          }
