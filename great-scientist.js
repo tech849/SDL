@@ -4,7 +4,7 @@ document.getElementById("usresult").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIES
   //main
 document.getElementById("scientist").innerHTML="<h3>GREAT SCIENTIST DOCUMENTARIES</h3><br><div  id='lm' class='scrll-imgs'><embed src='/SDL/the-master-of-lightning.jpg' width='200' height='200'onclick='ld();'></embed><embed src='/SDL/dc-vs-ac.jpg' width='200' height='200' onclick='ld2();'></embed><embed src='/SDL/the-forgotten-genius.jpg' width='200' height='200'onclick='ld3();'></embed></embed><embed src='/SDL/.jpg' width='200' height='200'></embed></embed><embed src='/SDL/.jpg' width='200' height='200'></embed></embed><embed src='/SDL/.jpg' width='200' height='200'></embed></div>";
 
-//refresh
+//the master of lightning
 function ld(){
 document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-master-of-lightning.jpg'width='200'height='200'></embed></td><td><h2>THE MASTER OF<br> LIGHTNING</h2></td></tr><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";
  const f = setTimeout(fetching,1000);
@@ -39,9 +39,14 @@ const reset4 = setTimeout(rst, 6000);
              window.open("/SDL/dc-vs-ac.html");
                 }
 
+
+
+
 // the forgotten genius
 
-//dv vs ac
+
+
+
 function ld3(){
 document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'>WATCH</button><button onclick='download();'>DOWNLOAD</button><button onclick='read();'>READ</button><br><p id='nikola1'></p></td></tr></table>";
   
@@ -85,7 +90,14 @@ const reset3_4 = setTimeout(rst, 6000);
   const perc3_4= setTimeout(per3,3100);
   const perc4_5 = setTimeout(per4,4100);
 }
+
+
+
+
 //default functions
+
+
+
 function rst(){
 location.reload();
          }
@@ -100,7 +112,16 @@ function avail(){
              document.getElementById("l1").innerHTML="AVAIL SOON..";
              
          }
+
+
+
+
 // loader percentage
+
+
+
+
+
 function per1(){
              document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;width:16px;height:16px;'>25%</b>";            
          }
