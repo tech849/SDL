@@ -45,7 +45,7 @@ function rst(){
 location.reload();
 }
 function process(){
-             document.getElementById("l2").innerHTML+=".";
+             document.getElementById("l2").innerHTML+="<b style='border:3px solid blue;height:30px;width:20px;'></p>";
              
          }
 function percentage(){
