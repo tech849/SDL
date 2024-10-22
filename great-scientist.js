@@ -48,6 +48,3 @@ function process(){
              document.getElementById("l2").innerHTML+=".";
              
          }
-function percentage(){
-document.getElementById("t1").innerHTML="100%"; 
-}
