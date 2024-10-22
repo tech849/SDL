@@ -29,7 +29,7 @@ const reset2 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:;'></p></td><td><p id='l2'style='color:transparent;background-color:white;'></p></td><td></tr></table><p id='t1'style='color:yellow;background-color:green;position:relative;top:0;left:200px;'></p>";
+document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:;'></p></td><td><p id='l2'style='color:transparent;background-color:white;'></p></td><td></tr></table><p id='t1'style='color:yellow;position:relative;top:-1;left:200px;'></p>";
   document.getElementById("l1").innerHTML="loading..";
                 document.getElementById("t1").innerHTML="100%"; 
   const p1 = setInterval(process,100);
