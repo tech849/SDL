@@ -29,9 +29,9 @@ const reset2 = setTimeout(rst, 6000);
 
 //dv vs ac
 function ld3(){
-document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:;'></p></td><td><p id='l2'style='color:transparent;background-color:white;'></p></td><td></tr></table><p id='t1'style='color:yellow;position:relative;top:-1;left:200px;'></p>";
+document.getElementById("lm").innerHTML="<table style='background-color:black;'><tr><td><p id='l1'style='color:yellow;background-color:;'></p></td><td><p id='l2'style='color:transparent;background-color:white;'><p id='t1'></p></p></td><td></tr></table>";
   document.getElementById("l1").innerHTML="loading..";
-                document.getElementById("t1").innerHTML="100%"; 
+                const percentage =  setTimeout(fetched,5000);
   const p1 = setInterval(process,100);
 //const loading2 = setTimeout(load1, 5000);
 const reset3 = setTimeout(rst, 6000);
@@ -48,3 +48,6 @@ function process(){
              document.getElementById("l2").innerHTML+=".";
              
          }
+function percentage(){
+document.getElementById("t1").innerHTML="100%"; 
+}
