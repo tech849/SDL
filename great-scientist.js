@@ -48,11 +48,11 @@ const reset4 = setTimeout(rst, 6000);
 
 
 function ld3(){
-document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='200'height='200'></embed></td><td><h2>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'style='filter: blur(100px);border:2px solid white;color:green;'>WATCH</button><button onclick='download();'style='filter: blur(100px);border:2px solid white;color:green;'>DOWNLOAD</button><button onclick='read();'style='filter: blur(100px);border:2px solid white;color:green;'>READ</button><br><p id='nikola1'></p></td></tr></table>";
+document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);'><tr><td><embed src='/SDL/the-forgotten-genius.jpg'width='150'height='150'></embed></td><td><h2 color='yellow'>THE FORGOTTEN GENIUS</h2><br><button onclick='watch();'style='filter: blur(100px);border:2px solid white;color:green;'>WATCH</button><button onclick='download();'style='filter: blur(100px);border:2px solid white;color:green;'>DOWNLOAD</button><button onclick='read();'style='filter: blur(100px);border:2px solid white;color:green;'>READ</button><br><p id='nikola1'></p></td></tr></table>";
   
                }
 function watch(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
+   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f1 = setTimeout(fetching,1000);
   const r1 = setTimeout(redirecting,2000);
   const av1 = setTimeout(avail,4000);
@@ -78,7 +78,7 @@ const reset_3 = setTimeout(rst, 6000);
   const perc_4 = setTimeout(per4,4100);
 }
 function read(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
+   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f1_2 = setTimeout(fetching,1000);
   const r1_2 = setTimeout(redirecting,2000);
   const av1_2 = setTimeout(avail,4000);
