@@ -123,15 +123,15 @@ function avail(){
 
 
 function per1(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;width:16px;height:16px;'>25%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:10px;width:16px;height:16px;'>25%</b>";            
          }
 function per2(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;width:16px;height:16;'>50%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:10px;width:16px;height:16;'>50%</b>";            
          }
 function per3(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;width:16px;height:16px;'>75%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:10px;width:16px;height:16px;'>75%</b>";            
          }
 
 function per4(){
-             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:50%;'>100%</b>";            
+             document.getElementById("l2").innerHTML="<b style='background-color:yellow;border:1px solid red;border-radius:10px;'>100%</b>";            
          }
