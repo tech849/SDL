@@ -117,7 +117,7 @@ function avail(){
              
          }
 
-function displaynig(){
+function displaying(){
              document.getElementById("l1").innerHTML="DISPLAYING...";
              
 }
