@@ -65,7 +65,7 @@ const reset3 = setTimeout(rst, 6000);
   const perc4 = setTimeout(per4,4100);
 }
 function download(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;'>Loading...</p></td><td><p id='l2'style='color:blue;background-color:transparent;border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
+   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f_1 = setTimeout(fetching,1000);
   const r_1 = setTimeout(redirecting,2000);
   const av_1 = setTimeout(avail,4000);
