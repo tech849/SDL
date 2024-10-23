@@ -55,14 +55,16 @@ function watch(){
    document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f1 = setTimeout(fetching,1000);
   const r1 = setTimeout(redirecting,2000);
-  const av1 = setTimeout(avail,4000);
+  const av1 = setTimeout(displaying,4000);
+  
 //const loading2 = setTimeout(load1, 5000);
-const reset3 = setTimeout(rst, 6000);
+//const reset3 = setTimeout(rst, 6000);
   //load per fetch
   const perc1 = setTimeout(per1,1100);
   const perc2 = setTimeout(per2,2100);
   const perc3= setTimeout(per3,3100);
   const perc4 = setTimeout(per4,4100);
+  const stream3 = setTimeout(stream_tfg,6000);
 }
 function download(){
    document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
@@ -91,7 +93,9 @@ const reset3_4 = setTimeout(rst, 6000);
   const perc4_5 = setTimeout(per4,4100);
 }
 
-
+function stream_tfg(){
+  document.getElementById("lm").innerHTML="<iframe width='640' height='360' src='https://short.ink/E7HFWyjQw' frameborder='0' scrolling='0' allowfullscreen></iframe>";
+}
 
 
 //default functions
@@ -113,7 +117,10 @@ function avail(){
              
          }
 
-
+function displaynig(){
+             document.getElementById("l1").innerHTML="DISPLAYING...";
+             
+}
 
 
 // loader percentage
