@@ -94,7 +94,7 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 
 function stream_tfg(){
-  document.getElementById("lm").innerHTML="<div style='padding-top:56%;position:relative;'><iframe src='https://player.vdocipher.com/v2/?otp=20160313versASE323NGrYO3BShfoxaCfAtXwep5lpAdpYcIKs213o2EdmwvEGzE&playbackInfo=eyJ2aWRlb0lkIjoiYzcwMDRkOTM4MTZiNDQ1YWE5MzEyZjZlZWM3NTgxM2QifQ=='style='border:0;max-width:100%;position:absolute;top:0;left:0;height:240px;width:320px;'allowFullScreen='true' allow='encrypted-media'></iframe></div>";
+  document.getElementById("lm").innerHTML="<div style='padding-top:;position:relative;'><iframe src='https://player.vdocipher.com/v2/?otp=20160313versASE323NGrYO3BShfoxaCfAtXwep5lpAdpYcIKs213o2EdmwvEGzE&playbackInfo=eyJ2aWRlb0lkIjoiYzcwMDRkOTM4MTZiNDQ1YWE5MzEyZjZlZWM3NTgxM2QifQ=='style='border:0;max-width:;position:absolute;top:0;left:0;height:;width:'allowFullScreen='true' allow='encrypted-media'></iframe></div>";
 }
 
 
