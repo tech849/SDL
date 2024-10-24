@@ -94,7 +94,7 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 
 function stream_tfg(){
-  document.getElementById("lm").innerHTML="<iframe src='https://player.vdocipher.com/v2/?otp=20160313versASE3238l27yICWy6Baj7YIsR62ZoZMBeF0xWUvjIVPxjVrDDcWvl&playbackInfo=eyJ2aWRlb0lkIjoiYzcwMDRkOTM4MTZiNDQ1YWE5MzEyZjZlZWM3NTgxM2QifQ==' style='border:0;height:360px;width:640px;max-width:100%' allowFullScreen='true'allow='encrypted-media'></iframe>";
+  window.open("/SDL/the-forgotten-genius.html");
 }
 
 
