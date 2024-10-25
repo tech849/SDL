@@ -95,32 +95,12 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 
 function stream_tfg(){
-  document.getElementById("lm").innerHTML="<video controls><source src='https://sharedby.blomp.com/dkNYX9' width='300' height='240'></video>";
+  document.getElementById("lm").innerHTML="";
 }
 function dwn(){
   document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
 }
 // Get the element you want displayed in fullscreen 
-var elem = document.getElementById("myvideo");
-
-// Function to open fullscreen mode 
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { 
-// Safari 
-
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { 
-// IE11 
-
-    elem.msRequestFullscreen();
-  }
-}
-
-//default functions
-
-
 
 function rst(){
 location.reload();
