@@ -95,7 +95,7 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 
 function stream_tfg(){
-  document.getElementById("lm").innerHTML="<video style='height:240px;'  controls id='myvideo'><source src='https://sharedby.blomp.com/dkNYX9' type='video/mp4' controls></video>";
+  document.getElementById("lm").innerHTML="<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><video controls><source src='https://sharedby.blomp.com/dkNYX9' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' allowfullscreen scrolling='no' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'></video></div>";
 }
 function dwn(){
   document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
