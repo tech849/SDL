@@ -72,12 +72,13 @@ function download(){
   const r_1 = setTimeout(redirecting,2000);
   const av_1 = setTimeout(avail,4000);
 //const loading2 = setTimeout(load1, 5000);
-const reset_3 = setTimeout(rst, 6000);
+//const reset_3 = setTimeout(rst, 6000);
   //load per fetch
   const perc_1 = setTimeout(per1,1100);
   const perc_2 = setTimeout(per2,2100);
   const perc_3= setTimeout(per3,3100);
   const perc_4 = setTimeout(per4,4100);
+  const download1 = setTimeout(dwn,6000);
 }
 function read(){
    document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
@@ -94,7 +95,10 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 
 function stream_tfg(){
-  window.open("/SDL/the-forgotten-genius.html");
+  window.open("#");
+}
+function dwn(){
+  window.open("https://sharedby.blomp.com/dkNYX9");
 }
 
 
