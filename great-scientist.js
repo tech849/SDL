@@ -98,7 +98,7 @@ function stream_tfg(){
   window.open("#");
 }
 function dwn(){
-  window.open("https://sharedby.blomp.com/dkNYX9");
+  document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>
 }
 
 
