@@ -95,10 +95,10 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 
 function stream_tfg(){
-  window.open("#");
+  document.getElementById("lm").innerHTML="<div style='width:320px;height:240px;background-color:black;text-align:center;'><video style='height:240px;' allowfullscreen='true' controls><source src='https://sharedby.blomp.com/dkNYX9' type='video/mp4'></video></div>";
 }
 function dwn(){
-  document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>
+  document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
 }
 
 
