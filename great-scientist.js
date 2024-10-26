@@ -28,7 +28,7 @@ document.getElementById("lm").innerHTML="<table style='border-collapse:collapse;
                }
   
          
-function watch2(){
+function watch1(){
    document.getElementById("nikola2").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f12= setTimeout(fetching,1000);
   const r12 = setTimeout(redirecting,2000);
@@ -43,8 +43,8 @@ function watch2(){
   const perc42= setTimeout(per4,4100);
   const stream32= setTimeout(stream_tfg1,6000);
 }
-function download2(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
+function download1(){
+   document.getElementById("nikola2").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f_12 = setTimeout(fetching,1000);
   const r_12= setTimeout(redirecting,2000);
   const av_12 = setTimeout(avail,4000);
@@ -57,8 +57,8 @@ function download2(){
   const perc_42= setTimeout(per4,4100);
   const download12 = setTimeout(dwn1,6000);
 }
-function read2(){
-   document.getElementById("nikola1").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
+function read1(){
+   document.getElementById("nikola2").innerHTML="<table><tr><td><p id='l1'style='color:yellow;border-radius:20px;background-image: linear-gradient(to right, #434343 0%, black 100%);'>Loading...</p></td><td><p id='l2'style='color:blue;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);border-radius:20px;'><embed src='/SDL/loading-circle.gif'width='16'height='16'style='border-radius:50%;border:2px solid yellow;'></embed></p></td></tr></table>";      
  const f1_22 = setTimeout(fetching,1000);
   const r1_22= setTimeout(redirecting,2000);
   const av1_22= setTimeout(avail,4000);
@@ -71,7 +71,14 @@ const reset3_42 = setTimeout(rst, 6000);
   const perc4_52 = setTimeout(per4,4100);
 }
 
-
+//l2
+function stream_tfg1(){
+  document.getElementById("lm").innerHTML="<iframe src='/SDL/the-forgotten-genius.html'height='240'width='320'></iframe>";
+}
+function dwn1(){
+  document.getElementById("nikola2").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
+}
+//l2
 
 // the forgotten genius
 
@@ -131,20 +138,7 @@ function stream_tfg(){
 function dwn(){
   document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
 }
-//l2
-function stream_tfg1(){
-  document.getElementById("lm").innerHTML="<iframe src='/SDL/the-forgotten-genius.html'height='240'width='320'></iframe>";
-}
-function dwn1(){
-  document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
-}
-//l2
-function stream_tfg2(){
-  document.getElementById("lm").innerHTML="<iframe src='/SDL/the-forgotten-genius.html'height='240'width='320'></iframe>";
-}
-function dwn2(){
-  document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
-}
+
 // Get the element you want displayed in fullscreen 
 
 function rst(){
