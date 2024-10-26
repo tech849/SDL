@@ -133,7 +133,7 @@ const reset3_4 = setTimeout(rst, 6000);
 }
 //l3
 function stream_tfg(){
-  document.getElementById("lm").innerHTML="<iframe src='/SDL/the-forgotten-genius.html'height='240'width='320'></iframe>";
+  document.getElementById("lm").innerHTML="<iframe src='/SDL/the-forgotten-genius.html'height='100%'width='100%'></iframe>";
 }
 function dwn(){
   document.getElementById("nikola1").innerHTML="<a href='https://sharedby.blomp.com/dkNYX9' download>CLICK TO START DOWNLOAD</a>";
