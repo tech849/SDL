@@ -1,4 +1,3 @@
-const sfx = setTimeout(search,4500);
 function search(){
 var a = document.getElementById("usquerry").value;
 if(a.toLowerCase() == "konark temple"){
