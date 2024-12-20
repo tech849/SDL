@@ -73,4 +73,8 @@ document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/d
   if(a.toLowerCase() == "edison"){
 document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
   }
+  else{
+a="<div id='srout'><div id='face'></div><div id='face2'></div><div id='face3'></div><div id='eye'></div><div id='eye2'></div><div id='eye3'></div><div id='eye4'></div><div id='eye5'></div><div id='eye6'></div><div id='tilak1'></div><div id='tilak2'></div><div id='tilak3'></div><div id='smile'></div><div id='smile2'></div><div id='smile3'></div><div id='skeleton'></div><div id='skeleton2'></div><div id='skeleton3'></div></div><div id='cover'></div>";
+}
+
 }
