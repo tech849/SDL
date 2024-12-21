@@ -1,20 +1,380 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta charset="UTF-8" >
-<title>SDL</title>
-    <link rel="icon" href="/SDL/favicon-32x32.png" sizes="32x32">
-<link rel="stylesheet"  href="/SDL/style.css">
+<style>
+body{
+background-color:black;
+
+}
+#face{
+border:3px solid black;
+height:190px;
+width:190px;
+outline:7px solid yellow;
+border-radius:50%;
+position:fixed;
+top:200px;
+left:200px;
+background-color:white;
+}
+#face2{
+border:3px solid white;
+height:190px;
+width:190px;
+outline:7px solid red;
+border-radius:50%;
+position:fixed;
+top:200px;
+left:450px;
+background-color:gold;
+}
+#face3{
+border:3px solid white;
+height:190px;
+width:190px;
+outline:7px solid black;
+border-radius:50%;
+position:fixed;
+top:200px;
+left:700px;
+background-color:black;
+}
+#eye{
+border:1px solid black;
+outline:5px solid red;
+border-radius:50%;
+height:40px;
+width:40px;
+position:fixed;
+top:250px;
+left:220px;
+}
+#eye2{
+border:1px solid black;
+outline:5px solid red;
+border-radius:50%;
+height:40px;
+width:40px;
+position:fixed;
+top:250px;
+left:330px;
+}
+#eye3{
+border:1px solid black;
+outline:5px solid red;
+border-radius:50%;
+height:40px;
+width:40px;
+position:fixed;
+top:250px;
+left:470px;
+}
+#eye4{
+border:1px solid black;
+outline:5px solid red;
+border-radius:50%;
+height:40px;
+width:40px;
+position:fixed;
+top:250px;
+left:580px;
+}
+#eye5{
+border:1px solid black;
+outline:5px solid red;
+border-radius:50%;
+height:40px;
+width:40px;
+position:fixed;
+top:250px;
+left:720px;
+}
+#eye6{
+border:1px solid black;
+outline:5px solid red;
+border-radius:50%;
+height:40px;
+width:40px;
+position:fixed;
+top:250px;
+left:830px;
+}
+#tilak1{
+border:5px solid green;
+height:40px;
+width:10px;
+border-radius:30px;
+position:fixed;
+top:250px;
+left:290px;
+}
+#tilak2{
+border:5px solid white;
+height:40px;
+width:10px;
+border-radius:30px;
+position:fixed;
+top:250px;
+left:540px;
+}
+#tilak3{
+border:5px solid white;
+height:40px;
+width:10px;
+border-radius:30px;
+position:fixed;
+top:250px;
+left:790px;
+}
+#smile{
+height:10px;
+width:100px;
+border:3px solid red;
+border-radius:50%;
+position:fixed;
+top:350px;
+left:250px;
+}
+#smile2{
+height:10px;
+width:100px;
+border:3px solid red;
+border-radius:50%;
+position:fixed;
+top:350px;
+left:500px;
+}
+#smile3{
+height:10px;
+width:100px;
+border:3px solid red;
+border-radius:50%;
+position:fixed;
+top:350px;
+left:750px;
+}
+#skeleton{
+border:4px solid black;
+border-radius:50%;
+height:300px;
+width:150px;
+position:fixed;
+top:400px;
+left:220px;
+outline:4px solid yellow;
+background-color:white;
+}
+#skeleton2{
+border:4px solid white;
+border-radius:50%;
+height:300px;
+width:150px;
+position:fixed;
+top:400px;
+left:470px;
+background-color:gold;
+outline:4px solid red;
+}
+#skeleton3{
+border:4px solid white;;
+border-radius:50%;
+height:300px;
+width:150px;
+position:fixed;
+top:400px;
+left:720px;
+background-color:black;
+outline:4px solid black;
+}
+#cover{
+height:100%;
+width:100%;
+background-color:black;
+position:fixed;
+top:490px;
+}
+#pby{
+color:yellow;
+font-size:40px;
+}
+#god{
+color:white;
+position:fixed;
+top:500px;
+left:540px;
+background-image:url("https://i.makeagif.com/media/1-03-2017/4k_yfJ.gif");
+}
+#usquerry{
+position:fixed;
+top:100px;
+left:350px;
+height:40px;
+width:400px;
+border-radius:;
+outline:none;
+color:yellow;
+background-color:transparent;
+border:1px solid red;
+}
+#usresult{
+position:fixed;
+top:150px;
+left:440px;
+color:white;
+
+}
+table{
+background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+}
+</style>
 </head>
 <body>
-<p id="menu"></p><br><br><p id="usresult"></p>
-      <script src="/SDL/home.js"></script>
-    <script src="/SDL/industries.js"></script>
-    <script src="/SDL/index.js"></script>
-<script src="/SDL/history.js"></script>
-<script src="/SDL/more.js"></script>
-<script src="/SDL/video.js"></script>
-<script src="/SDL/menu.js"></script>
-    <script src="/SDL/search.js"></script>
+<p onclick="location.reload()"style="color:white;position:fixed;top:100px;left:300px;">home</p><input type="search" placeholder="search..." onkeypress="search()"id="usquerry"onkeyup="search()">
+<div id="usresult"><div id="face"></div><div id="face2"></div>
+<div id="face3"></div><div id="eye"></div>
+<div id="eye2"></div><div id="eye3"></div>
+<div id="eye4"></div>
+<div id="eye5"></div>
+<div id="eye6"></div>
+<div id="tilak1"></div>
+<div id="tilak2"></div>
+<div id="tilak3"></div>
+<div id="smile"></div>
+<div id="smile2"></div>
+<div id="smile3"></div>
+<div id="skeleton"></div>
+<div id="skeleton2"></div>
+<div id="skeleton3"></div></div>
+<div id="cover"></div>
+<div id="pby"></div>
+<div id="god"></div>
 </body>
+ <script>
+function search(){
+var a = document.getElementById("usquerry").value;
+if(a.toLowerCase() == "konark temple"){
+document.getElementById("usresult").innerHTML="<a href='/SDL/konark.html' style='underline:none;'><table border='1px solid black'style='background-color:#8FBC8B;'><tr><th>NAME</th><th>LOCATION</th><th>STATE</th></tr><tr><td>KONARK SUN TEMPLE  TEMPLE</td><td>puri,chandrabhaga</td><td>ODISHA</td></tr></table></a>";
+}
+if(a.toLowerCase() == "jagannath  temple"){
+document.getElementById("usresult").innerHTML="<a href='/SDL/jagannath.html'><table border='1px solid black'><tr><th>NAME</th><th>LOCATION</th><th>STATE</th><tr><td>JAGANNATH TEMPLE</td><td>bada danda,puri</td><td>ODISHA</td></tr></table></a>";
+}
+if(a.toLowerCase() == "lingaraj temple"){
+document.getElementById("usresult").innerHTML="<a href='/SDL/lingaraj.html'><table border='1px solid black'><tr><th>NAME</th><th>LOCATION</th><th>STATE</th><tr><td>LINGARAJ TEMPLE</td><td>bhubneswar</td><td>ODISHA</td></tr></table></a>";
+}
+if(a.toLowerCase() == "ratan tata"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/ratan-naval-tata.jpg' width='200' height='200'></embed></td><td>RATAN NAVAL TATA<br><i>oral story</i></td></tr></table>";
+}
+  if(a.toLowerCase() == "industries"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/industries.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "quiz games"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/brain.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "java quiz"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/java-quiz.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "nikola tesla"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/the-master-of-lightning.jpg' width='200'height='200'></embed></td><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+   if(a.toLowerCase() == "dc vs ac"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "thomas edison"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "the master of lightning"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/the-master-of-lightning.jpg' width='200'height='200'></embed></td><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+
+  //  single word search resulth
+
+if(a.toLowerCase() == "jagannath"){
+document.getElementById("usresult").innerHTML="<a href='/SDL/jagannath.html'><table border='1px solid black'><tr><th>NAME</th><th>LOCATION</th><th>STATE</th><tr><td>JAGANNATH TEMPLE</td><td>bada danda,puri</td><td>ODISHA</td></tr></table></a>";
+}
+if(a.toLowerCase() == "lingaraj"){
+document.getElementById("usresult").innerHTML="<a href='/SDL/lingaraj.html'><table border='1px solid black'><tr><th>NAME</th><th>LOCATION</th><th>STATE</th><tr><td>LINGARAJ TEMPLE</td><td>bhubneswar</td><td>ODISHA</td></tr></table></a>";
+}
+if(a.toLowerCase() == "tata"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/ratan-naval-tata.jpg' width='200' height='200'></embed></td><td>RATAN NAVAL TATA<br><i>oral story</i></td></tr></table>";
+}
+  if(a.toLowerCase() == "quiz"){
+document.getElementById("usresult").innerHTML="<embed src='/SDL/brain.html'width='100%'height='100%'></embed>";
+  }
+  if(a.toLowerCase() == "java"){
+document.getElementById("usresult").innerHTML="<p>JAVA</p><br><p>JAVA QUIZ</p>";
+  }
+   if(a.toLowerCase() == "tesla"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/the-master-of-lightning.jpg' width='200'height='200'></embed></td><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "master"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/the-master-of-lightning.jpg' width='200'height='200'></embed></td><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "lightning"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/the-master-of-lightning.jpg' width='200'height='200'></embed></td><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+   if(a.toLowerCase() == "dc"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "ac"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "thomas"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+  }
+  if(a.toLowerCase() == "edison"){
+document.getElementById("usresult").innerHTML="<table><tr><td><embed src='/SDL/dc-vs-ac.jpg' width='200'height='200'></embed></td></tr></table> ";
+}
+}
+
+const pby1 = setTimeout(n1,1000);
+function n1(){
+document.getElementById("pby").innerHTML="<u>programmed by</u>";
+const pby2 = setTimeout(n2,3000);
+}
+function n2(){
+document.getElementById("pby").innerHTML="<i><b>S</b></i>";
+const pby1 = setTimeout(n3,2000);
+
+}
+function n3(){
+document.getElementById("pby").innerHTML="<i><b>SM</b></i>";
+const pby1 = setTimeout(n4,2000);
+
+}
+function n4(){
+document.getElementById("pby").innerHTML="<i><b>SMA</b></i>";
+const pby1 = setTimeout(n5,2000);
+
+}
+function n5(){
+document.getElementById("pby").innerHTML="<i><b>SMAR</b></i>";
+const pby1 = setTimeout(n6,2000);
+
+}
+function n6(){
+document.getElementById("pby").innerHTML="<i><b>SMARA</b></i>";
+const pby1 = setTimeout(n7,2000);
+
+}
+function n7(){
+document.getElementById("pby").innerHTML="<i><b>SMARAK</b></i>";
+const pby1 = setTimeout(n8,2000);
+
+}
+function n8(){
+document.getElementById("pby").innerHTML="<i><b>SMARAK D</b></i>";
+const pby1 = setTimeout(n9,2000);
+
+}
+function n9(){
+document.getElementById("pby").innerHTML="<i><b>SMARAK DA</b></i>";
+const pby1 = setTimeout(n10,2000);
+
+}
+function n10(){
+document.getElementById("pby").innerHTML="<i><b>SMARAK DAS</b></i>";
+const pby1 = setTimeout(n1,2000);
+
+}
+
+</script>
 </html>
