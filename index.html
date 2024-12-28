@@ -2,8 +2,7 @@
 <head>
 <style>
 body{
-background-color:black;
-
+background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 #face{
 border:3px solid black;
@@ -188,13 +187,15 @@ outline:4px solid black;
 #cover{
 height:100%;
 width:100%;
-background-color:black;
+background-image: linear-gradient(to right, #434343 0%, black 100%);
 position:fixed;
 top:490px;
 }
 #pby{
-color:yellow;
+color:black;
 font-size:40px;
+position:fixed;
+top:95%;
 }
 #god{
 color:white;
@@ -205,13 +206,13 @@ background-image:url("https://i.makeagif.com/media/1-03-2017/4k_yfJ.gif");
 }
 #usquerry{
 position:fixed;
-top:100px;
+top:10px;
 left:350px;
-height:40px;
+height:50px;
 width:400px;
 border-radius:;
 outline:none;
-color:yellow;
+color:black;
 background-color:transparent;
 border:1px solid red;
 }
@@ -219,16 +220,33 @@ border:1px solid red;
 position:fixed;
 top:150px;
 left:440px;
-color:white;
+color:black;
 
 }
 table{
 background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+border-collapse:collapse;
+}
+td{
+border:2px solid black;
+border-collapse:collapse;
+}
+#a1{
+color:white;
+padding:10px;
+position:fixed;
+top:95px;
+left:550px;
+}
+input::placeholder{
+color:black;
+font-size:20px;
 }
 </style>
 </head>
 <body>
-<p onclick="location.reload()"style="color:white;position:fixed;top:100px;left:300px;">home</p><input type="search" placeholder="search..." onkeypress="search()"id="usquerry"onkeyup="search()">
+<div style="border:2px solid green;width:99%;height:50px;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);"><p style="color:black;background-color:transparent;position:fixed;top:0px;left:170px;font-size:20px;"onclick="categ()" >MENU</p>
+<p onclick="home();"style="color:white;position:fixed;top:0px;left:250px;color:black;font-size:20px;">HOME</p><input type="search" placeholder="search..." onkeypress="search()"id="usquerry"onkeyup="search()"></div>
 <div id="usresult"><div id="face"></div><div id="face2"></div>
 <div id="face3"></div><div id="eye"></div>
 <div id="eye2"></div><div id="eye3"></div>
@@ -245,10 +263,17 @@ background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #
 <div id="skeleton2"></div>
 <div id="skeleton3"></div></div>
 <div id="cover"></div>
-<div id="pby"></div>
+<div style="border:2px solid green;width:99%;height:50px;background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);" id="pby"></div>
 <div id="god"></div>
 </body>
  <script>
+function home(){
+document.getElementById("usresult").innerHTML="<p onclick='home();'style='background-color:black;color:white;position:fixed;top:0px;left:250px;font-size:20px;'>HOME</p><div id='usresult'><div id='face'></div><div id='face2'></div><div id='face3'></div><div id='eye'></div><div id='eye2'></div><div id='eye3'></div><div id='eye4'></div><div id='eye5'></div><div id='eye6'></div><div id='tilak1'></div><div id='tilak2'></div><div id='tilak3'></div><div id='smile'></div><div id='smile2'></div><div id='smile3'></div><div id='skeleton'></div><div id='skeleton2'></div><div id='skeleton3'></div></div><div id='cover'></div><div id='god'></div>";
+}
+function categ(){
+document.getElementById("usresult").innerHTML="<p style='color:white;background-color:black;position:fixed;top:0px;left:170px;font-size:20px;'onclick='categ()' >MENU</p><br><table style='position:fixed;left:0px;'><tr><tr><td><embed src='https://d29fhpw069ctt2.cloudfront.net/icon/image/37726/preview.svg'width='200px'height='200px'style='border-radius:50%;'></embed></td><td><embed src='https://cdn.icon-icons.com/icons2/1369/PNG/512/-history_89998.png'width='200px'height='200px'style='border-radius:50%;'></embed></td><td><embed src='https://w7.pngwing.com/pngs/688/405/png-transparent-manufacturing-company-industry-business-computer-icons-industry-text-service-people-thumbnail.png'width='200px'height='200px'style='border-radius:50%;'></embed></td><td><embed src='https://icons.veryicon.com/png/o/miscellaneous/play-pc-play-page/video-web-play.png'width='200px'height='200px'style='border-radius:0%;'></embed></td></tr><tr><td>CODE puzzle</td><td>historical</td><td>INDUSTRIES</td><td>VIDEOS</d></tr></table>";
+}
+
 function search(){
 var a = document.getElementById("usquerry").value;
 if(a.toLowerCase() == "konark temple"){
