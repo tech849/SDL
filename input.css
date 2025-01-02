@@ -1,6 +1,8 @@
 input{
-border:none;
-  outline:none;
+background-color:white;
+  color:black;
+  height:30px;
+  font-size:21px;
 }
 body{
 cursor:pointer;
