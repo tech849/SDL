@@ -1,5 +1,52 @@
+<!DOCTYPE html>
+
 <html>
-<?php
-echo "SMARAK';
-?>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>search</title>
+  <style>
+  body{
+    background-color:black;
+    color:gold;
+  }
+  #sg{
+    border:1px solid yellow;
+    color:gold;
+    background-color:transparent;
+    width:100%;
+    height:30px;
+  }
+  #sy{
+    border:1px solid yellow;
+    color:gold;
+    background-color:transparent;
+    width:100%;
+    height:30px;
+  }
+  </style>
+</head>
+<body>
+  <p id="syt"><input type="search" id="sg" onkeypress="srgoogle();" placeholder="search.."><button onclick="yt();">YouTube</button></p>
+  
+  <p id="sgoogle"></p>
+</body>
+<script>
+function srgoogle(){
+  var part1="https://www.google.com/search?client=ms-android-xiaomi-rvo2b&sca_esv=acb771fffe3cabd8&q=";
+  var part2="&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94pT_oR1DTSof42bOBxoTNxGYtnTt0uv2yEOv5DHAkyym7ad1FgpoLf3AUoNbT6liGkDGzsTGFRR5WvGcJam60WAqIJhPbFZ-MsKNjz9fD9QMJzFiWI9EyPVu5Jf3fWF_-DCIBWIpdFI6pL3_INi_H4BugtnWg&sa=X&ved=2ahUKEwi_oZSC1IiLAxXuzTgGHTzOJJIQtKgLegQIJBAB&biw=393&bih=736&dpr=2.75";
+  var part3= document.getElementById("sg").value;
+  document.getElementById("sgoogle").innerHTML="<a href='"+part1+part3+part2+"'>click to go</a>";
+}
+function gle(){
+  document.getElementById("syt").innerHTML="<p id='syt'><input type='search' id='sg' onkeypress='srgoogle();' placeholder='search..'><button onclick='yt();'>YouTube</button></p>";
+}
+function yt(){
+  document.getElementById("syt").innerHTML="<p id='syt'><input type='search' id='sy' onkeypress='sryt();' placeholder='search..'><button onclick='gle();'>Google</button></p>";
+}
+function sryt(){
+  var lnk="https://m.youtube.com/results?sp=mAEA&search_query=";
+   var inpt= document.getElementById("sy").value;
+  document.getElementById("sgoogle").innerHTML="<a href='"+lnk+inpt+"'>click</a>";
+}
+</script>
 </html>
